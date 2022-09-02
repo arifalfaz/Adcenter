@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">AdCenter</string>
+    <string name="base_url">https://web.adcenter.co.in//</string>
+
+    //Headings
+    <string name="heading_one">Text1</string>
+    <string name="heading_two">Text2</string>
+    <string name="heading_three">Text3</string>
+    <string name="heading_fourth">Text4</string>
+
+    //Description
+    <string name="desc_one">Description 1</string>
+    <string name="desc_two">Description 2</string>
+    <string name="desc_three"> Description 3 </string>
+    <string name="desc_fourth">Description 4</string>
+
+</resources>

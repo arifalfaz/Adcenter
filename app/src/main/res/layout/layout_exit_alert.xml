@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:id="@+id/exit_alert_view"
+    android:padding="23dp">
+
+    <TextView
+        android:id="@+id/iv_1"
+        android:fontFamily="@font/poppins_regular"
+        android:textColor="@color/colorAccent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Exit"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/iv_2"
+        android:layout_below="@+id/iv_1"
+        android:fontFamily="@font/poppins_regular"
+        android:textColor="@android:color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Are you sure you want to exit?"
+        android:textSize="14sp"
+        tools:ignore="HardcodedText" />
+
+    <ImageView
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/ic_exit"
+        android:padding="5dp"
+        android:layout_marginTop="-5dp"
+        android:layout_width="29dp"
+        android:layout_height="29dp"
+        app:tint="#3E3E3E"
+        tools:ignore="ContentDescription" />
+
+    <LinearLayout
+        android:layout_marginStart="18dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_below="@+id/iv_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_margin="10dp"
+            android:fontFamily="@font/poppins_regular"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:background="@drawable/button_bg"
+            android:textColor="#959595"
+            android:backgroundTint="#F9F9F9"
+            android:id="@+id/btnNo"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_marginTop="40dp"
+            android:layout_height="33dp"
+            android:text="No"
+            tools:ignore="ButtonStyle,HardcodedText" />
+
+        <Button
+            android:layout_margin="10dp"
+            android:fontFamily="@font/poppins_regular"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:background="@drawable/button_bg"
+            android:id="@+id/btnYes"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_marginTop="40dp"
+            android:layout_height="33dp"
+            android:text="Yes"
+            tools:ignore="ButtonStyle,HardcodedText" />
+
+    </LinearLayout>
+
+</RelativeLayout>

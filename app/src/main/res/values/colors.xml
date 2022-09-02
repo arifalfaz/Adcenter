@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#306FB2</color>
+    <color name="colorPrimaryDark">#306FB2</color>
+    <color name="colorAccent">#Fd8642</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+    //onboarding colors
+    <color name="background">#Fd8642</color>
+    <color name="buttontext">#285A90</color>
+
+    //indicator color
+    <color name="inactive">#C4C4C4</color>
+    <color name="active">#306FB2</color>
+</resources>
